@@ -17,21 +17,23 @@ var saveBton7 = $('#btn7');
 var saveBton8 = $('#btn8');
 var saveBton9 = $('#btn9');
 
-var d = new Date();
-var hour = d.getHours();
 var aryB = [saveBton, saveBton2, saveBton3, saveBton4, saveBton5, saveBton6, saveBton7, saveBton8, saveBton9];
 var ary = [hour9, hour10, hour11, hour12, hour13, hour14, hour15, hour16, hour17];
-
+ 
 function calculateTime(){
-for (var i = 0; i < ary.length; i++){
+    var d = new Date();
+    var hour = d.getHours();
+    $("#current").text(d);
+    for (var i = 0; i < ary.length; i++){
     if (hour == (i+9)){
         ary[i].addClass("present")
      }else if(hour > (i+9)){
          ary[i].addClass("past")
      }else {
          ary[i].addClass("future");
-     }        
+     }      
 }}
+
 
 for (var j = 0; j < aryB.length; j++){
 aryB[j].on('click', function(event){
@@ -53,4 +55,4 @@ for (var j = 0; j < aryB.length; j++){
 var savedNote = localStorage.getItem("save");
     if (savedNote !== null) hour9.val(savedNote);
 }
-setInterval(calculateTime(), 1000);
+setInterval(calculateTime, 1000);
