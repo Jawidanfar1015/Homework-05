@@ -1,11 +1,23 @@
-# Homework-05
-This was my fifth weekly Homework
-I have built everything from scratch by using what we have covered in the class.
+# Day Planner
+This is a simple work day scheduler that so easy to use
+As you open the app you will see the day of the week on the top with regular work day hours under it, with different color for each time block, green for upcoming hours, red for current hour and dark grey for past hours.
 
-this is a simple work day scheduler that user can save events or duties to be done.
-as user open the page can see the day of the week and the work day hours with different colors.
-if it is green it means its the upcoming hour.
-it it is red it means its the current hour.
-if it is dark it means its the past hour.
+![](./Assets/images/filename%20App.png)
 
-it is usable for differen screen sizes. 
+HOW TO USE THE APP?
+1. If You want to do something or make a note on a specific hour you should follow the step below!
+2. Choose the hour that you need to the your activity.
+3. Add your note in the middle box next to specified hour.
+4. press save icon to the right side of the table.
+
+I built this app from scratch using the following refrences:
+https://www.youtube.com/
+https://momentjs.com/
+https://www.w3schools.com/jsref/jsref_obj_date.asp
+https://fonts.google.com/
+https://getbootstrap.com/
+
+Programms
+1. HTML
+2. CSS
+3. Javascript
