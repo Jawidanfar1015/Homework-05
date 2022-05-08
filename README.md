@@ -12,10 +12,10 @@ HOW TO USE THE APP?
 4. press save icon to the right side of the table.
 
 I built this app from scratch using the following refrences:
-https://www.youtube.com/
-https://momentjs.com/
-https://www.w3schools.com/jsref/jsref_obj_date.asp
-https://fonts.google.com/
+https://www.youtube.com/ \n
+https://momentjs.com/ \n 
+https://www.w3schools.com/jsref/jsref_obj_date.asp \n 
+https://fonts.google.com/ \n
 https://getbootstrap.com/
 
 Programms
